@@ -11,10 +11,11 @@
     <title>用户注册</title>
 </head>
 <body>
-      <form action="/reg" method="post">
+      <form action="/login" method="post">
          用户名： <input type="text" name="user_name"><br>
-         密 &nbsp; 码：<input type="password" name="passwd"><br>
-          <input type="submit" value="提交">
+         密 &nbsp; &nbsp;码：<input type="password" name="passwd"><br>
+          <input type="submit" value="登录">
       </form>
 </body>
+
 </html>
