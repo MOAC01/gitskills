@@ -25,9 +25,11 @@ public class UserListFilter implements Filter {
         if(null!=user){
             filterChain.doFilter(servletRequest,servletResponse);   //放行
         }else {
-            System.out.println("=======被拦截，跳转到登录页面！=========");
+            //System.out.println("=======被拦截，跳转到登录页面！=========");
             servletRequest.getRequestDispatcher("/login.jsp").forward(servletRequest,servletResponse);
         }
+
+        System.out.println("test");
 
     }
 
