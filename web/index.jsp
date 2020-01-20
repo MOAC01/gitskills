@@ -12,5 +12,6 @@
   </head>
   <body>
        this is index page.
+       <a href="reg.jsp">用户注册</a>
   </body>
 </html>
