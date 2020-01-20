@@ -11,7 +11,7 @@
     <title>用户登录</title>
 </head>
 <body>
-<form action="/reg" method="post">
+<form action="/login" method="post">
     用户名： <input type="text" name="user_name"><br>
     密 &nbsp; 码：<input type="password" name="passwd"><br>
     <input type="submit" value="提交">

@@ -31,6 +31,10 @@ public class UserListFilter implements Filter {
 
     }
 
+    public int add(int a,int b){
+        return a+b;
+    }
+
     @Override
     public void destroy() {
 
